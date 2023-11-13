@@ -1,0 +1,335 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    position: center;
+}
+
+
+
+
+
+.autoGuard
+{
+    width: auto;
+    height: auto;  
+
+    position: fixed;
+    top: 20px;
+    left: 30px;
+}
+
+.fancyTitle
+{
+    position: absolute;
+    top: 265px;
+    left: 30px;
+}
+
+h1.titleHeader1
+{
+    font-size: 47px;
+}
+
+h2.titleHeader2
+{
+    margin-top: -20px;
+    font-size: 22px;
+
+    font-style: normal;
+    font-weight: 42;
+}
+
+.goButton
+{
+    font-size: 25px;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 50%;
+    top: 480px;
+    transform: translate(-50%, -50%);
+
+    background-color: #2bb5c7;
+    border-radius: 20px;
+    color: black;
+    padding: 15px 50px;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.login
+{
+    font-size: 25px;
+
+    position: absolute;
+    left: 60%;
+    top: 1450px;
+    transform: translate(-50%, -50%);
+
+    background-color: #d8d8d8;
+    border-radius: 30px;
+    color: black;
+    padding: 25px 50px;
+
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 125px, 0px;
+}
+
+.signin
+{
+    font-size: 25px;
+
+    position: absolute;
+
+    left: 80%;
+    top: 1450px;
+    transform: translate(-50%, -50%);
+
+    background-color: #2bb5c7;
+    border-radius: 30px;
+    color: black;
+    padding: 25px 50px;
+
+    cursor: pointer;
+}
+
+.mainBanner
+{
+    width: 100%;
+    height: auto;
+}
+
+.secondBanner
+{
+    width: 100%;
+    height: auto;
+}
+
+.thingy
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.topbar_text
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+
+    word-spacing: 40px;
+    margin-right: 40px;
+
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.shortDesc
+{
+    font-size: 23px;
+
+    position: absolute;
+    top: 900px;
+    left: 50px;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 500px;
+    text-align: center;
+}
+
+.thirdBG
+{
+    width: 100%;
+    height: auto;
+}
+
+.servicios
+{
+    position: absolute;
+    top: 1720px;
+    left: 50%;
+
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.desc1
+{
+    font-size: 23px;
+
+    position: absolute;
+    top: 2000px;
+    left: 175px;
+    color: black;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+
+    border-radius: 25px;
+    padding: 15px 20px;
+    background-color: rgb(198, 147, 232);
+}
+
+.desc2
+{
+    font-size: 23px;
+
+    position: absolute;
+    top: 2000px;
+    left: 600px;
+    color: black;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+
+    border-radius: 25px;
+    padding: 15px 20px;
+    background-color: rgb(198, 147, 232);
+}
+
+.desc3
+{
+    font-size: 23px;
+
+    position: absolute;
+    top: 2000px;
+    left: 1035px;
+    color: black;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+
+    border-radius: 25px;
+    padding: 30px 20px;
+    background-color: rgb(198, 147, 232);
+}
+
+.knowmore1
+{
+    font-size: 20px;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 310px;
+    top: 2200px;
+    transform: translate(-50%, -50%);
+
+    background-color: #2095e8;
+    border-radius: 40px;
+    color: black;
+    padding: 10px 20px;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.knowmore2
+{
+    font-size: 20px;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 740px;
+    top: 2200px;
+    transform: translate(-50%, -50%);
+
+    background-color: #2095e8;
+    border-radius: 40px;
+    color: black;
+    padding: 10px 20px;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.knowmore3
+{
+    font-size: 20px;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 1170px;
+    top: 2200px;
+    transform: translate(-50%, -50%);
+
+    background-color: #2095e8;
+    border-radius: 40px;
+    color: black;
+    padding: 10px 20px;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1100px)
+ {
+    .goButton
+    {
+        left: 550px;
+    }
+
+    .login
+    {
+        left: 550px;
+    }
+
+    .signin
+    {
+        left: 850px;
+    }
+
+    .mainBanner
+    {
+        width: 1100px;
+    }
+
+    .secondBanner
+    {
+        width: 1100px;
+    }
+
+    .thirdBG
+    {
+        width: 1100px;
+    }
+}
